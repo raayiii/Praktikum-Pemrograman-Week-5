@@ -43,10 +43,10 @@ int main (){
 	cin >> arr[i];
 }
 	s = jumlah(arr, n);
-	cout << "Jumlah semua elemen: " << s;
-    cout << "\nNilai minimum: " << minVal(arr, n);
-    cout << "\nNilai maksimum: " << maxVal(arr, n);
-    cout << "\nRata-rata: " << mean(arr, n) << endl;
+	cout << "Jumlah semua elemen: " << s << endl;
+    cout << "Nilai minimum: " << minVal(arr, n) << endl;
+    cout << "Nilai maksimum: " << maxVal(arr, n) << endl;
+    cout << "Rata-rata: " << mean(arr, n) << endl;
 	
 	return 0;
 }
